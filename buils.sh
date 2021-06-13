@@ -27,7 +27,7 @@ ROM=${OUT_PATH}/${rom_name}
 
 priv_to_me="/home/dump/configs_iron/priv.conf"
 channel="/home/dump/configs_iron/channel.conf"
-eric="/home2/eric/eric.conf"
+newpeeps="/home2/eric/pric.conf"
 
 # Folder specifity
 
