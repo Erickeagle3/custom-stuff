@@ -72,4 +72,5 @@ cd ..
 ./gdrive upload -p 13E5_FhCDWHr9YE7h1MVRx71TPTMYiKeO crDroid*.zip
 rm -rf crDroid*.zip
 cd cr
-echo build uploaded to team drive to download go https://test-builds.aijarvis334.workers.dev/
+echo here is the link of G Index  https://test-builds.aijarvis334.workers.dev/
+echo here is the link of Google Drive - https://drive.google.com/drive/u/3/folders/13E5_FhCDWHr9YE7h1MVRx71TPTMYiKeO
