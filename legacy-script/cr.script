@@ -67,5 +67,9 @@ make "$target_command" -j"$jobs"
 
 # upload to gdrive
 echo uploading build to Google drive
-gdrive upload -p 1O3K6ct5Y4ggDqESCDmMldd6otZOvlTOi ./out/target/product/mido/CrDroid*.zip
+cp out/target/product/mido/crDroid*.zip /home/sayan
+cd ..
+./gdrive upload -p 13E5_FhCDWHr9YE7h1MVRx71TPTMYiKeO crDroid*.zip
+rm -rf crDroid*.zip
+cd cr
 echo build uploaded to team drive to download go https://test-builds.aijarvis334.workers.dev/
