@@ -26,7 +26,6 @@ ROM=${OUT_PATH}/${rom_name}
 # Telegram Stuff
 
 priv_to_me="/home/dump/configs_iron/priv.conf"
-channel="/home/dump/configs_iron/channel.conf"
 newpeeps="/home2/eric/pric.conf"
 
 # Folder specifity
@@ -46,7 +45,6 @@ read -r -d '' msg <<EOT
 EOT
 
 telegram-send --format html "${msg}" --config ${priv_to_me} --disable-web-page-preview
-telegram-send --format html "${msg}" --config ${channel} --disable-web-page-preview
 telegram-send --format html "${msg}" --config ${newpeeps} --disable-web-page-preview
 
 # Time to build
@@ -152,5 +150,4 @@ fi
 
 
 telegram-send --format html "$priv" --config ${priv_to_me} --disable-web-page-preview
-telegram-send --format html "$priv" --config ${channel} --disable-web-page-preview
 telegram-send --format html "$priv" --config ${newpeeps} --disable-web-page-preview
