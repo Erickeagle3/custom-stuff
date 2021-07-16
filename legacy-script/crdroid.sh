@@ -67,10 +67,7 @@ make "$target_command" -j"$jobs"
 
 # upload to gdrive
 echo uploading build to Google drive
-cp out/target/product/mido/crDroid*.zip /home/sayan
-cd ..
-./gdrive upload -p 13E5_FhCDWHr9YE7h1MVRx71TPTMYiKeO crDroid*.zip
-rm -rf crDroid*.zip
-cd cr
+/home/sayan/gdrive -c /home/sayan/.gdrive/ upload -p 1QlRWUgvKiUvgsexMGtlhX4hX1j5EroFa ./out/target/product/mido/crDroid*.zip
+
 echo here is the link of G Index  https://test-builds.aijarvis334.workers.dev/
-echo here is the link of Google Drive - https://drive.google.com/drive/u/3/folders/13E5_FhCDWHr9YE7h1MVRx71TPTMYiKeO
+echo here is the link of Google Drive - https://drive.google.com/drive/u/3/folders/1QlRWUgvKiUvgsexMGtlhX4hX1j5EroFa
